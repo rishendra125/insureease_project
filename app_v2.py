@@ -218,11 +218,10 @@ with st.sidebar:
 
     _render_sidebar_spend()
 
-    with st.expander("🧪 Dev preview (fake data)"):
+    with st.expander("🧪 Preview mode"):
         st.caption(
-            "Loads obviously-fake demo entries into this session's history "
-            "so charts/layout can be previewed with more data. Never writes "
-            "to run_log.jsonl, never costs anything, never real."
+            "Loads sample runs into this session so charts and layout can be "
+            "previewed with more data. Never costs anything, never calls the API."
         )
         if st.button("Load fake preview data", width="stretch"):
             import random as _random
