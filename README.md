@@ -1,4 +1,10 @@
-# InsureEase Claims Intake Agent
+# InsureEase
+
+**[Live demo →](https://insureeaseproject-rawmmdp7teqzzvxxs48omp.streamlit.app/)**
+
+A teaching-style project comparing two ways to build an AI-assisted insurance claims intake agent: a fully deterministic fixed workflow versus a reasoning agent that decides its own path. Built offline first, tested before any API cost was ever on the line.
+
+
 
 A teaching-style project comparing two ways to build an AI-assisted insurance claims intake agent: a fully deterministic fixed workflow versus a reasoning agent that decides its own path. Built offline first, tested before any API cost was ever on the line.
 
