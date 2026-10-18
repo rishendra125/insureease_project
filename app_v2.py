@@ -223,7 +223,7 @@ with st.sidebar:
             "Loads sample runs into this session so charts and layout can be "
             "previewed with more data. Never costs anything, never calls the API."
         )
-        if st.button("Load fake preview data", width="stretch"):
+        if st.button("Load sample data", width="stretch"):
             import random as _random
             _fake_claims = ["CLM-100", "CLM-101", "CLM-102", "CLM-103", "CLM-104", "CLM-105"]
             _fake_outcomes = ["advance_issued", "escalated", "declined", "answered_no_action"]
